@@ -1,2 +1,0 @@
-# 仅运行本目录 agent.py / CustomAgent 所需（Python 3.11+）
-requests>=2.28.0
