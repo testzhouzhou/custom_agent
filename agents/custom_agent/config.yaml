@@ -1,0 +1,18 @@
+# 自定义智能体配置
+agent:
+  name: "custom_agent"
+  type: "custom"
+  description: "我的自定义智能体"
+
+model:
+  default: "qwen-plus"
+  api_base: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+
+api:
+  api_key_env: "DASHSCOPE_API_KEY"
+
+# 自定义配置（在 __init__ 的 **kwargs 中接收）
+custom:
+  max_context_length: 5
+  enable_memory: true
+  enable_tools: false
